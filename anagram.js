@@ -2,13 +2,13 @@
 //like "anagram" and "nagaram" are anagrams
 //but "rat" and "bat" are not
 
-// const checkAnagrams = function (string1, string2) {
-//   if (string1.length !== string2.length) return false;
-//   return (
-//     string1.split("").sort().join("") === string2.split("").sort().join("")
-//   );
-// };
-// console.log(checkAnagrams("anagram", "nagarams"));
+const checkAnagrams1 = function (string1, string2) {
+  if (string1.length !== string2.length) return false;
+  return (
+    string1.split("").sort().join("") === string2.split("").sort().join("")
+  );
+};
+console.log(checkAnagrams1("anagram", "nagarams"));
 
 const checkAnagrams2 = function (string1, string2) {
   let obj1 = {};
