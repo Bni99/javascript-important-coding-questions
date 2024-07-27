@@ -12,12 +12,18 @@ console.log(checkAnagrams1("anagram", "nagarams"));
 
 const checkAnagrams2 = function (string1, string2) {
   let obj1 = {};
-  for (let i = 0; i < string1.length; i++) {
-    obj1[string1[i]] = (obj1[string1[i]] || 0) + 1;
+  for (const i of string1) {
+    obj1[i] = (obj1[i] || 0) + 1;
   }
-  console.log(obj1);
-  for (let ch of string2) {
+  for (const j of string2) {
+    if (!obj1[j]) {
+      return false;
+    }
+    if (obj1[j]) {
+      obj1[j]--;
+    }
   }
+  return true;
 };
 
 console.log(checkAnagrams2("hello", "ohell"));
