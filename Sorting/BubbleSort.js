@@ -28,7 +28,7 @@ console.log(bubbleSort([4, 1, 3, 9, 7]));
 //[1,3,4,7,9]
 
 //So there is one optimized version of bubble sort as well like what if the array given is already sorted so we can try optimizing it
-//like its based on the thing like in case during an iteration i donot find any swaps , then i will just break out of the loop means its already sorted so in that case O(n)
+//like its based on the thing like in case during an iteration i donot find any swaps , then i will just break out of the loop means its already sorted so in that case the best case O(n)
 
 const optimizedBubbleSort = function (arr) {
   for (let i = arr.length - 1; i > 0; i++) {
