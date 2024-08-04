@@ -38,4 +38,14 @@ const bruteFindMissingNumber = function (arr, n) {
 
 console.log(bruteFindMissingNumber([1, 2, 4, 5], 5));
 
+const optimalBruteFindMissingNumber = function(arr,n){
+    let sum = (n*(n+1))/2
+    let sumOfArrayElements= 0
+    for(let i=0;i<arr.length;i++){
+    sumOfArrayElements = sumOfArrayElements+arr[i]
+    }
+    return sum-sumOfArrayElements
+
+}
+console.log(optimalBruteFindMissingNumber([1,2,4,5],5))
 
