@@ -37,3 +37,5 @@ const bruteFindMissingNumber = function (arr, n) {
 };
 
 console.log(bruteFindMissingNumber([1, 2, 4, 5], 5));
+
+
