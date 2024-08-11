@@ -1,0 +1,2 @@
+So in case of an array its stored in contigouus memory location
+but in case of linked list its not stored like that and there size can be increased at any moment
