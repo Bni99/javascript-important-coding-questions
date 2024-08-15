@@ -1,0 +1,22 @@
+So basically a tree is binary when it can max have 2 children 
+a leaf is a node with no children
+ancestor would be a parent or before generations
+
+5 type of binary tree
+Full binary tree 
+so either a node have zero or 2 children
+
+complete binary tree
+all the levels completely filled except the last level and in the last level also the nodes should in as left as possible
+
+perfect binary tree
+all the leaf nodes should be at same level
+
+balanced tree 
+at max the height of tree is log to the base 2 n , where n is the number of nodes 
+
+degenerate tree
+where every node has one children
+
+for binary search tree
+the data in the left node is < or equal to the parent node and in right node its > than parent
