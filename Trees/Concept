@@ -20,3 +20,4 @@ where every node has one children
 
 for binary search tree
 the data in the left node is < or equal to the parent node and in right node its > than parent
+also for binary search tree its height is generally log2N in allmost all cases
